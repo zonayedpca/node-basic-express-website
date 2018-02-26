@@ -1,0 +1,27 @@
+{
+  "name": "basic-express-website",
+  "version": "1.0.0",
+  "description": "A Basic Express Website made by Zonayed Ahmed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zonayedpca/node-basic-express-website.git"
+  },
+  "keywords": [
+    "express-website",
+    "nodejs"
+  ],
+  "author": "Zonayed Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zonayedpca/node-basic-express-website/issues"
+  },
+  "homepage": "https://github.com/zonayedpca/node-basic-express-website#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

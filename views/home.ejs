@@ -1,0 +1,21 @@
+<% include ./partials/header %>
+<section class="content-area">
+    <div class="container">
+        <div class="row">
+            <div class="contents">
+                <div class="row">
+                    <% posts.forEach((post) => { %>
+                    <div class="col-md-4">
+                        <div class="content">
+                            <h3><%= post.title %></h3>
+                            <img src="<%= post.img %>" alt="an image"></img>
+                            <p><%= post.desc %></p>
+                        </div>
+                    </div>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<% include ./partials/footer %>
