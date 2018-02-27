@@ -1,0 +1,32 @@
+<% include ./partials/header %>
+<section class="content-area">
+    <div class="container">
+        <div class="row">
+            <div class="contents">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="page-head">
+                      <h1>Add New Blog Post</h1>
+                    </div>
+                    <div class="page-content">
+                      <p>This form actually work but doesn't store anything on the database. But the main purpose here is to demonstrate the usage of form data and work with them in Express. Express can take form data, manipulate it and again send it back to any other specified places. It is very handy. Fill the form below and submit it to see it in action</p>
+                      <form action="/blog" method="POST">
+                        <div class="input-group">
+                          <input class="form-control" type="text" name="blog[title]" placeholder="Title of your post">
+                        </div>
+                        <div class="input-group">
+                          <input class="form-control" type="text" name="blog[img]" placeholder="Image URL of your post">
+                        </div>
+                        <div class="input-group">
+                          <textarea class="form-control" name="blog[desc]" placeholder="Enter the blog content" id="" cols="10" rows="10"></textarea>
+                        </div>
+                        <button class="btn btn-lg btn-success" type="submit">Add Post</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<% include ./partials/footer %>

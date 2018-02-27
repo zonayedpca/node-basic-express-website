@@ -1,0 +1,25 @@
+<% include ./partials/header %>
+<section class="content-area">
+    <div class="container">
+        <div class="row">
+            <div class="contents">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="page-head">
+                      <h1>Thanks <%= contact.name %> For your Submission</h1>
+                    </div>
+                    <div class="page-content">
+                      <p>Hello <%= contact.name %>, It is just a confirmation that your submission has worked if you are seeing this text. But it doesn't send any data actually and it is for only demo purpose. The informations you have submitted through this form: </p>
+                      <ul>
+                        <li>Name: <%= contact.name %></li>
+                        <li>Email: <%= contact.email %></li>
+                        <li>Your Message: <%= contact.msg %></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<% include ./partials/footer %>

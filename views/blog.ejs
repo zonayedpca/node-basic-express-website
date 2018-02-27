@@ -4,6 +4,12 @@
         <div class="row">
             <div class="contents">
                 <div class="row">
+                  <div class="col">
+                    <h2>Blog</h2>
+                    <p>This blog demonstrate the usage of loop to get all the post properly and also how we can make a new blog post. These newly created blog posts are not permanent but you can create a new post and see it in action. How does it works!</p>
+                  </div>
+                </div>
+                <div class="row">
                     <% posts.forEach((post) => { %>
                     <div class="col-md-4">
                         <div class="content">
@@ -13,6 +19,11 @@
                         </div>
                     </div>
                     <% }); %>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <a href="/blog/new" class="btn btn-info">Add a New Post</a>
+                  </div>
                 </div>
             </div>
         </div>
