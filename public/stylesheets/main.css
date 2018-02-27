@@ -50,3 +50,24 @@ body {
     color: #fff;
     padding: 50px 25px;
 }
+
+.foot a {
+    background: #fff;
+    display: inline-block;
+    color: #000;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 2px;
+    transition: 0.2s all;
+    transform: rotate(0);
+}
+
+.foot a:hover {
+    transform: rotate(3deg);
+    text-decoration: none;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}

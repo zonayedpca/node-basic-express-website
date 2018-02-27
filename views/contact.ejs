@@ -1,0 +1,32 @@
+<% include ./partials/header %>
+<section class="content-area">
+    <div class="container">
+        <div class="row">
+            <div class="contents">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="page-head">
+                      <h1>Contact Us</h1>
+                    </div>
+                    <div class="page-content">
+                      <p>This form actually doesn't work. But the main purpose here is to demonstrate the usage of form data and work with them in Express. Express can take form data, manipulate it and again send it back to any other specified places. It is very handy. Fill the form below and submit it to see it in action</p>
+                      <form action="/contact" method="POST">
+                        <div class="input-group">
+                          <input class="form-control" type="text" name="contact[name]" placeholder="Your Name">
+                        </div>
+                        <div class="input-group">
+                          <input class="form-control" type="text" name="contact[email]" placeholder="Your Email">
+                        </div>
+                        <div class="input-group">
+                          <textarea class="form-control" name="contact[msg]" placeholder="Enter your message" id="" cols="10" rows="10"></textarea>
+                        </div>
+                        <button class="btn btn-lg btn-success" type="submit">Send</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<% include ./partials/footer %>
